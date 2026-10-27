@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Glow & Glamour Beauty Parlor System</title>
+    <link rel="stylesheet" href="style (2).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+<header id="main-header">
+    <div class="top-branding">
+        <img src="image/logo.jpg" alt="Logo" class="logo">
+        <h1>Glow & Glamour</h1>
+        <p>Beauty Parlor Management System</p>
+    </div>
+    
+    <nav class="nav-bar">
+        <a href="HOME.html" class="nav-btn">Home</a>
+        <a href="WBS.html" class="nav-btn">WBS</a>
+        <a href="AS.html" class="nav-btn">AS</a>
+        <a href="ADS.html" class="nav-btn">ADS</a>
+        <a href="GANTT.html" class="nav-btn active">GANTT</a>
+        <a href="TEAM.html" class="nav-btn">TEAM</a>
+    </nav>
+</header>
+
+    <main class="main-content">
+        <section class="content-section active">
+            <header class="section-header">
+                <h1>Gantt Chart Timeline</h1>
+                <p>Visual project schedule tracking task progression across weeks.</p>
+            </header>
+            <div class="gantt-container">
+                <div class="gantt-row header-row">
+                    <div class="gantt-task-name">Activity Name</div>
+                    <div class="gantt-timeline">
+                        <span>W1</span><span>W2</span><span>W3</span><span>W4</span><span>W5</span><span>W6</span><span>W7</span><span>W8</span><span>W9</span><span>W10</span><span>W11</span><span>W12</span><span>W13</span><span>W14</span><span>W15</span>
+                    </div>
+                </div>
+                <div class="gantt-row"><div class="gantt-task-name">A1: Project Planning</div><div class="gantt-timeline"><div class="bar" style="grid-column: 1 / span 1;"></div></div></div>
+                <div class="gantt-row"><div class="gantt-task-name">A2: Requirements Analysis</div><div class="gantt-timeline"><div class="bar" style="grid-column: 2 / span 2;"></div></div></div>
+                <div class="gantt-row"><div class="gantt-task-name">A3: System Design</div><div class="gantt-timeline"><div class="bar" style="grid-column: 4 / span 2;"></div></div></div>
+                <div class="gantt-row"><div class="gantt-task-name">A4: System Development</div><div class="gantt-timeline"><div class="bar" style="grid-column: 6 / span 6;"></div></div></div>
+                <div class="gantt-row"><div class="gantt-task-name">A5: System Integration</div><div class="gantt-timeline"><div class="bar" style="grid-column: 12 / span 2;"></div></div></div>
+                <div class="gantt-row"><div class="gantt-task-name">A6: Testing & QA</div><div class="gantt-timeline"><div class="bar" style="grid-column: 13 / span 3;"></div></div></div>
+                <div class="gantt-row"><div class="gantt-task-name">A7: Deployment</div><div class="gantt-timeline"><div class="bar" style="grid-column: 15 / span 2;"></div></div></div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Glow & Glamour Beauty Parlor System</title>
+    <link rel="stylesheet" href="style (2).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+<header id="main-header">
+    <div class="top-branding">
+        <img src="image/logo.jpg" alt="Logo" class="logo">
+        <h1>Glow & Glamour</h1>
+        <p>Beauty Parlor Management System</p>
+    </div>
+    
+    <nav class="nav-bar">
+        <a href="#home" class="nav-btn" data-section="home">Home</a>
+        <a href="#wbs" class="nav-btn" data-section="wbs">WBS</a>
+        <a href="#as" class="nav-btn" data-section="as">AS</a>
+        <a href="#ads" class="nav-btn" data-section="ads">ADS</a>
+        <a href="#gc" class="nav-btn" data-section="gc">GANTT</a>
+        <a href="#team" class="nav-btn" data-section="team">TEAM</a>
+    </nav>
+</header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        
+        <!-- HOME SECTION -->
+        <section id="home" class="content-section active">
+            <header class="section-header">
+                <h1>Welcome to Glow & Glamour Beauty Parlor System</h1>
+                <p>Your comprehensive information system solution for modern salon appointments, client profiling, and service management.</p>
+            </header>
+
+            <div class="card-grid">
+                <div class="info-card">
+                    <i class="fa-solid fa-bullseye"><span>Project Overview</span></i>
+                    <p>The Glow & Glamour Beauty Parlor Information System streamlines client booking, hair & skin treatment tracking, inventory management, and stylist scheduling to elevate customer experience and business operations.</p>
+                </div>
+                <div class="info-card">
+                    <i class="fa-solid fa-rocket"><span>System Objectives</span></i>
+                    <ul>
+                        <li>Automate appointment booking and queue management.</li>
+                        <li>Maintain secure customer beauty profiles and service histories.</li>
+                        <li>Manage product inventory and salon equipment tracking.</li>
+                        <li>Provide real-time dashboards and sales analytics for management.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- WBS SECTION -->
+        <section id="wbs" class="content-section">
+            <header class="section-header">
+                <h1>Work Breakdown Structure (WBS)</h1>
+                <p>Hierarchical decomposition of the beauty parlor information system project scope.</p>
+            </header>
+
+            <div class="wbs-container">
+                <div class="wbs-level-1">1.0 Glow & Glamour Beauty Parlor System Project</div>
+                <div class="wbs-grid">
+                    <div class="wbs-branch">
+                        <h3>1.1 Project Management</h3>
+                        <ul>
+                            <li>1.1.1 Project Proposal & Charter</li>
+                            <li>1.1.2 Team Role Assignment</li>
+                            <li>1.1.3 Milestone & Risk Planning</li>
+                        </ul>
+                    </div>
+                    <div class="wbs-branch">
+                        <h3>1.2 Requirements Analysis</h3>
+                        <ul>
+                            <li>1.2.1 Stakeholder Interviews</li>
+                            <li>1.2.2 Functional & Non-Functional Specs</li>
+                            <li>1.2.3 Workflow Process Modeling</li>
+                        </ul>
+                    </div>
+                    <div class="wbs-branch">
+                        <h3>1.3 System Design</h3>
+                        <ul>
+                            <li>1.3.1 Database ERD & Architecture</li>
+                            <li>1.3.2 UI/UX Wireframes & Mockups</li>
+                            <li>1.3.3 Security & Access Control Design</li>
+                        </ul>
+                    </div>
+                    <div class="wbs-branch">
+                        <h3>1.4 System Development</h3>
+                        <ul>
+                            <li>1.4.1 Client Authentication & Profiles</li>
+                            <li>1.4.2 Appointment & Queue Module</li>
+                            <li>1.4.3 POS, Billing & Inventory Module</li>
+                        </ul>
+                    </div>
+                    <div class="wbs-branch">
+                        <h3>1.5 Testing & QA</h3>
+                        <ul>
+                            <li>1.5.1 Unit & Integration Testing</li>
+                            <li>1.5.2 User Acceptance Testing (UAT)</li>
+                            <li>1.5.3 Bug Fixing & Performance Tuning</li>
+                        </ul>
+                    </div>
+                    <div class="wbs-branch">
+                        <h3>1.6 Deployment & Support</h3>
+                        <ul>
+                            <li>1.6.1 Server & Database Hosting Setup</li>
+                            <li>1.6.2 Staff Orientation & Training</li>
+                            <li>1.6.3 System Handover & Documentation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACTIVITY SEQUENCING (AS) SECTION -->
+        <section id="as" class="content-section">
+            <header class="section-header">
+                <h1>Activity Sequencing (AS)</h1>
+                <p>Logical dependencies and sequence flow of project tasks.</p>
+            </header>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Activity ID</th>
+                            <th>Major Activity</th>
+                            <th>Key Tasks Included</th>
+                            <th>Predecessors</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>A1</strong></td>
+                            <td>Project Planning</td>
+                            <td>Define scope, objectives, assign team roles, schedule setup.</td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A2</strong></td>
+                            <td>Requirements Analysis</td>
+                            <td>Client interviews, process analysis, feature spec documentation.</td>
+                            <td>A1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A3</strong></td>
+                            <td>System Design</td>
+                            <td>Database ERD schema, UI/UX prototyping, security workflow design.</td>
+                            <td>A2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A4</strong></td>
+                            <td>System Development</td>
+                            <td>Coding booking system, inventory tracking, POS, and admin dashboard.</td>
+                            <td>A3</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A5</strong></td>
+                            <td>System Integration</td>
+                            <td>Connecting frontend interface to database backend and payment gateways.</td>
+                            <td>A4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A6</strong></td>
+                            <td>Testing & QA</td>
+                            <td>Unit tests, security checks, UAT with parlor staff, defect correction.</td>
+                            <td>A5</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A7</strong></td>
+                            <td>Deployment & Implementation</td>
+                            <td>Production deployment, staff training, pilot rollout at the parlor.</td>
+                            <td>A6</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A8</strong></td>
+                            <td>Documentation</td>
+                            <td>Technical manual, user guide, administrator manual.</td>
+                            <td>A5</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A9</strong></td>
+                            <td>Project Closure</td>
+                            <td>Final evaluation, presentation, formal client handover.</td>
+                            <td>A7, A8</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ACTIVITY DURATION ESTIMATION (ADS) SECTION -->
+        <section id="ads" class="content-section">
+            <header class="section-header">
+                <h1>Activity Duration Estimation (ADS)</h1>
+                <p>Estimated timeframes and assigned responsibilities per project phase.</p>
+            </header>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Major Activity</th>
+                            <th>Estimated Duration</th>
+                            <th>Responsible Member / Role</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>A1</td>
+                            <td>Project Planning & Team Assessment</td>
+                            <td>1 Week</td>
+                            <td>Project Manager</td>
+                        </tr>
+                        <tr>
+                            <td>A2</td>
+                            <td>Requirements Analysis</td>
+                            <td>2 Weeks</td>
+                            <td>System Analyst</td>
+                        </tr>
+                        <tr>
+                            <td>A3</td>
+                            <td>System Design (UI/UX & Database)</td>
+                            <td>2 Weeks</td>
+                            <td>UI/UX Designer & Database Admin</td>
+                        </tr>
+                        <tr>
+                            <td>A4</td>
+                            <td>System Development (Modules)</td>
+                            <td>6 Weeks</td>
+                            <td>Lead Programmers / Developers</td>
+                        </tr>
+                        <tr>
+                            <td>A5</td>
+                            <td>System Integration</td>
+                            <td>2 Weeks</td>
+                            <td>Lead Programmers / Technical Team</td>
+                        </tr>
+                        <tr>
+                            <td>A6</td>
+                            <td>Testing and Quality Assurance</td>
+                            <td>3 Weeks</td>
+                            <td>QA / Tester & Development Team</td>
+                        </tr>
+                        <tr>
+                            <td>A7</td>
+                            <td>Deployment and Implementation</td>
+                            <td>2 Weeks</td>
+                            <td>Project Manager & Technical Team</td>
+                        </tr>
+                        <tr>
+                            <td>A8</td>
+                            <td>Documentation</td>
+                            <td>3 Weeks*</td>
+                            <td>Documentation Specialist</td>
+                        </tr>
+                        <tr>
+                            <td>A9</td>
+                            <td>Project Closure and Evaluation</td>
+                            <td>1 Week</td>
+                            <td>Entire Project Team</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- GANTT CHART SECTION -->
+        <section id="gc" class="content-section">
+            <header class="section-header">
+                <h1>Gantt Chart Timeline</h1>
+                <p>Visual project schedule tracking task progression across weeks.</p>
+            </header>
+
+            <div class="gantt-container">
+                <div class="gantt-row header-row">
+                    <div class="gantt-task-name">Activity Name</div>
+                    <div class="gantt-timeline">
+                        <span>W1</span><span>W2</span><span>W3</span><span>W4</span><span>W5</span><span>W6</span><span>W7</span><span>W8</span><span>W9</span><span>W10</span><span>W11</span><span>W12</span><span>W13</span><span>W14</span><span>W15</span>
+                    </div>
+                </div>
+                <div class="gantt-row">
+                    <div class="gantt-task-name">A1: Project Planning</div>
+                    <div class="gantt-timeline"><div class="bar w-1" style="grid-column: 1 / span 1;"></div></div>
+                </div>
+                <div class="gantt-row">
+                    <div class="gantt-task-name">A2: Requirements Analysis</div>
+                    <div class="gantt-timeline"><div class="bar w-2" style="grid-column: 2 / span 2;"></div></div>
+                </div>
+                <div class="gantt-row">
+                    <div class="gantt-task-name">A3: System Design</div>
+                    <div class="gantt-timeline"><div class="bar w-3" style="grid-column: 4 / span 2;"></div></div>
+                </div>
+                <div class="gantt-row">
+                    <div class="gantt-task-name">A4: System Development</div>
+                    <div class="gantt-timeline"><div class="bar w-4" style="grid-column: 6 / span 6;"></div></div>
+                </div>
+                <div class="gantt-row">
+                    <div class="gantt-task-name">A5: System Integration</div>
+                    <div class="gantt-timeline"><div class="bar w-5" style="grid-column: 12 / span 2;"></div></div>
+                </div>
+                <div class="gantt-row">
+                    <div class="gantt-task-name">A6: Testing & QA</div>
+                    <div class="gantt-timeline"><div class="bar w-6" style="grid-column: 13 / span 3;"></div></div>
+                </div>
+                <div class="gantt-row">
+                    <div class="gantt-task-name">A7: Deployment</div>
+                    <div class="gantt-timeline"><div class="bar w-7" style="grid-column: 15 / span 2;"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT TEAM SECTION (LABORATORY EXERCISE 3) -->
+        <section id="team" class="content-section">
+            <header class="section-header">
+                <h1>Project Team Organization (Laboratory Exercise 3)</h1>
+                <p>Team member assessment, role distribution, organizational chart, and task connections.</p>
+            </header>
+
+            <div class="team-block">
+                <h2>Part 1 & 2: Team Member Assessment & Assigned Roles</h2>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Team Member</th>
+                                <th>Skills & Strengths</th>
+                                <th>Assigned Project Role</th>
+                                <th>Major Responsibilities & Deliverables</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Member 1</strong></td>
+                                <td>Leadership, Public Speaking, Organization (Finisher/Deliverer)</td>
+                                <td>Project Manager</td>
+                                <td>Overall planning, stakeholder coordination, schedule monitoring, reporting.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Member 2</strong></td>
+                                <td>Analytical Thinking, Interviewing, Documentation (Producer)</td>
+                                <td>System / Business Analyst</td>
+                                <td>Gathers requirements, creates use cases, writes functional specifications.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Member 3</strong></td>
+                                <td>Creative Design, Layout Mastery, Empathy (Prototype/Perfector)</td>
+                                <td>UI/UX Designer</td>
+                                <td>Designs beauty parlor app interfaces, wireframes, user journeys, accessibility.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Member 4</strong></td>
+                                <td>Full-Stack Coding, Logical Problem Solving (Fixer/Producer)</td>
+                                <td>Developer / Programmer</td>
+                                <td>Develops booking modules, service catalogs, payment and client portals.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Member 5</strong></td>
+                                <td>Database Architecture, Data Integrity (Fixer)</td>
+                                <td>Database Administrator</td>
+                                <td>Designs salon databases, manages inventory records and client history security.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Member 6</strong></td>
+                                <td>Attention to Detail, Testing Scenarios (Finisher)</td>
+                                <td>QA / Tester</td>
+                                <td>Develops test plans, executes test cases, tracks defects, ensures quality standards.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="team-block">
+                <h2>Part 3: Project Team Organizational Chart</h2>
+                <div class="org-chart">
+                    <div class="org-node level-1">
+                        <h3>Project Manager</h3>
+                        <p>Member 1</p>
+                        <span>Overall planning, milestone monitoring, stakeholder communication</span>
+                    </div>
+                    <div class="org-connector"></div>
+                    <div class="org-row">
+                        <div class="org-node level-2">
+                            <h3>System Analyst</h3>
+                            <p>Member 2</p>
+                            <span>Requirements & workflows</span>
+                        </div>
+                        <div class="org-node level-2">
+                            <h3>UI/UX Designer</h3>
+                            <p>Member 3</p>
+                            <span>Wireframes & prototypes</span>
+                        </div>
+                        <div class="org-node level-2">
+                            <h3>Lead Developer</h3>
+                            <p>Member 4</p>
+                            <span>System modules & coding</span>
+                        </div>
+                        <div class="org-node level-2">
+                            <h3>Team Leader/Project Manager</h3>
+                            <p>Member 5</p>
+                            <span>Data schemas & integrity</span>
+                        </div>
+                        <div class="org-node level-2">
+                            <h3>QA / Tester</h3>
+                            <p>Member 6</p>
+                            <span>Testing plans & bug tracking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-block">
+                <h2>Part 4: Connect Roles to the Project Schedule</h2>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Project Activity</th>
+                                <th>Responsible Member</th>
+                                <th>Role</th>
+                                <th>Supporting Member(s)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Requirements Gathering</td>
+                                <td>Member 2</td>
+                                <td>System Analyst</td>
+                                <td>Project Manager</td>
+                            </tr>
+                            <tr>
+                                <td>System Analysis & Modeling</td>
+                                <td>Member 2</td>
+                                <td>System Analyst</td>
+                                <td>UI/UX Designer</td>
+                            </tr>
+                            <tr>
+                                <td>UI/UX Design & Wireframing</td>
+                                <td>Member 3</td>
+                                <td>UI/UX Designer</td>
+                                <td>System Analyst</td>
+                            </tr>
+                            <tr>
+                                <td>Database Architecture</td>
+                                <td>Member 5</td>
+                                <td>Database Administrator</td>
+                                <td>Lead Developer</td>
+                            </tr>
+                            <tr>
+                                <td>System Development</td>
+                                <td>Member 4</td>
+                                <td>Developer</td>
+                                <td>Database Admin</td>
+                            </tr>
+                            <tr>
+                                <td>Testing & Quality Assurance</td>
+                                <td>Member 6</td>
+                                <td>QA / Tester</td>
+                                <td>Developer</td>
+                            </tr>
+                            <tr>
+                                <td>Documentation & Handover</td>
+                                <td>Member 2 & Member 6</td>
+                                <td>Analyst / QA</td>
+                                <td>Project Manager</td>
+                            </tr>
+                            <tr>
+                                <td>Deployment & Presentation</td>
+                                <td>Member 1</td>
+                                <td>Project Manager</td>
+                                <td>Entire Team</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Glow & Glamour Beauty Parlor System</title>
+    <link rel="stylesheet" href="style (2).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+<header id="main-header">
+    <div class="top-branding">
+        <img src="image/logo.jpg" alt="Logo" class="logo">
+        <h1>Glow & Glamour</h1>
+        <p>Beauty Parlor Management System</p>
+    </div>
+    
+    <nav class="nav-bar">
+        <a href="HOME.html" class="nav-btn">Home</a>
+        <a href="WBS.html" class="nav-btn">WBS</a>
+        <a href="AS.html" class="nav-btn active">AS</a>
+        <a href="ADS.html" class="nav-btn">ADS</a>
+        <a href="GANTT.html" class="nav-btn">GANTT</a>
+        <a href="TEAM.html" class="nav-btn">TEAM</a>
+    </nav>
+</header>
+
+    <main class="main-content">
+        <section class="content-section active">
+            <header class="section-header">
+                <h1>Activity Sequencing (AS)</h1>
+                <p>Logical dependencies and sequence flow of project tasks.</p>
+            </header>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Activity ID</th>
+                            <th>Major Activity</th>
+                            <th>Key Tasks Included</th>
+                            <th>Predecessors</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>A1</strong></td><td>Planning</td><td>Decide what the project is, what you need to do, and when you need to finish it.</td><td>—</td></tr>
+                        <tr><td><strong>A2</strong></td><td>Requirements</td><td>Decide what the project is, what you need to do, and when you need to finish it.</td><td>A1</td></tr>
+                        <tr><td><strong>A3</strong></td><td>Analysis</td><td>Study the current problems and understand how the beauty parlor works.</td><td>A2</td></tr>
+                        <tr><td><strong>A4</strong></td><td>Design</td><td>Plan how the system will look and how its features will work.</td><td>A3</td></tr>
+                        <tr><td><strong>A5</strong></td><td>Database</td><td>Organize the information that the system will store, such as customers, services, appointments, and payments.</td><td>A4</td></tr>
+                        <tr><td><strong>A6</strong></td><td>Development</td><td>Build the actual system by creating its pages, features, and functions.</td><td>A5</td></tr>
+                        <tr><td><strong>A7</strong></td><td>Testing</td><td>Check if the system works correctly and if all its features are working properly.</td><td>A6</td></tr>
+                        <tr><td><strong>A8</strong></td><td>Fix errors</td><td>Correct any problems or mistakes found during testing.</td><td>A5</td></tr>
+                        <tr><td><strong>A9</strong></td><td>Documentation</td><td>Record important information about the project, such as the system process, diagrams, schedules, and results.</td><td>A7, A8</td></tr>
+                        <tr><td><strong>A9</strong></td><td>Website</td><td>Create a project website where you can show your project overview, WBS, Gantt Chart, diagrams, and team members.</td><td>A7, A8</td></tr>
+                        <tr><td><strong>A9</strong></td><td>Final Checking</td><td>Review the whole project and make sure everything is complete and working before submission.</td><td>A7, A8</td></tr>
+                        <tr><td><strong>A9</strong></td><td>Presentation</td><td>Explain and show your finished project to your teacher or classmates.</td><td>A7, A8</td></tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
